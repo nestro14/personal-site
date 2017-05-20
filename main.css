@@ -1,0 +1,16 @@
+.nav {
+  background-color: #7fc8ff;
+  color: black;
+  font-size: 24px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a.nav:active{
+  background: silver;
+}
+
+a.nav:hover {
+    background: #ffb67f;
+    text-decoration: none;
+}
