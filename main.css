@@ -1,5 +1,5 @@
 .nav {
-  background-color: #7fc8ff;
+  background-color:#7f898f;
   color: black;
   font-size: 24px;
   padding: 10px;
@@ -11,6 +11,37 @@ a.nav:active{
 }
 
 a.nav:hover {
-    background: #ffb67f;
+    background: #7fb6df;
     text-decoration: none;
+}
+
+body{
+  font-family: sans-serif,helvetica,georgia;
+  margin: auto;
+  background: #7fc8ff;
+}
+
+footer{
+  background: #7f898f;
+  height:52px;
+  padding-top: 10px;
+  margin-bottom: -20px;
+  text-align: center;
+  color: white;
+
+}
+
+.images {
+  height: 300px;
+  border-radius: 15px;
+}
+
+.center{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.text{
+  padding-left: 10%;
+  padding-right: 10%;
 }
