@@ -4,7 +4,7 @@
   <title>Mrs. Emoji's Adventures</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
+<body id="bg-img">
   <div class="nav">
     <nav>
       <a href="index.html" class="nav">Home </a>
@@ -14,43 +14,41 @@
     </nav>
   </div>
 
-  <div class="center">
+  <div class="container">
     <h1>Contact Us</h1>
-  </div>
 
-  <div align="center">
-  <p id="p-format">
-    If you would like to hang with the cool kids or just tell us about yourself or anything you would like us to know. Let us know by filling out our form. We hope to hear from you soon. Stay happy! &#128516;
-  </p>
-  </div>
+    <p id="p-format">
+      If you would like to hang with the cool kids or just tell us about yourself or anything you would like us to know. Let us know by filling out our form. We hope to hear from you soon. Stay happy! &#128516;
+    </p>
 
-  <div class="form">
-    <form method="post" action="https://httpbin.org/post">
-      <fieldset>
-        <legend>&#128521;</legend>
-        <label>Name:</label><br>
-        <input type="text" name="name"><br><br>
-        <label>Email:</label><br>
-        <input type="email" name="email"><br><br>
-        <label>Telephone:</label><br>
-        <input type="tel" name="telephone"><br><br>
-        <label>Comments:</label><br>
-        <textarea rows="4" cols="50">Leave us a message...</textarea><br><br>
-        <label>Want to go on an adventure?</label><br>
-        <input type="radio" name="adventure" value="yes"> Of course!<br>
-        <input type="radio" name="adventure" value="no" checked> No thanks <br><br>
-        <label>If yes, What type?</label><br>
-        <select>
-         <option value="none">None</option>
-          <option value="Outdoor">Outdoor</option>
-          <option value="Dinning">Dinning</option>
-          <option value="General Hangout">General Hangout</option>
-          <option value="Event">Event</option>
-          <option value="Not sure">Not sure</option>
-        </select><br><br>
-        <input type="submit" name="submit">&#128541;
-      </fieldset>
-    </form>
+    <div class="form">
+      <form method="post" action="https://httpbin.org/post">
+        <fieldset>
+          <legend>&#128521;</legend>
+          <label>Name:</label><br>
+          <input type="text" name="name"><br><br>
+          <label>Email:</label><br>
+          <input type="email" name="email"><br><br>
+          <label>Telephone:</label><br>
+          <input type="tel" name="telephone"><br><br>
+          <label>Comments:</label><br>
+          <textarea rows="4" cols="50">Leave us a message...</textarea><br><br>
+          <label>Want to go on an adventure?</label><br>
+          <input type="radio" name="adventure" value="yes"> Of course!<br>
+          <input type="radio" name="adventure" value="no" checked> No thanks <br><br>
+          <label>If yes, What type?</label><br>
+          <select>
+           <option value="none">None</option>
+            <option value="Outdoor">Outdoor</option>
+            <option value="Dinning">Dinning</option>
+            <option value="General Hangout">General Hangout</option>
+            <option value="Event">Event</option>
+            <option value="Not sure">Not sure</option>
+          </select><br><br>
+          <input type="submit" name="submit">&#128541;
+        </fieldset>
+      </form>
+    </div>
   </div>
   <footer>
     <p>Site created by: <strong>Nestor Ceron</strong></p>

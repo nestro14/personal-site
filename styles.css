@@ -6,22 +6,29 @@
   text-decoration: none;
 }
 
-a.nav:active{
+a.nav:active {
   background: silver;
 }
 
 a.nav:hover {
     background: #7fb6df;
     text-decoration: none;
+    border-bottom: 2px solid white;
 }
 
-body{
+
+
+a:visited {
+  color: white;
+}
+
+body {
   font-family: sans-serif,helvetica,georgia;
   margin: auto;
   background: #7fc8ff;
 }
 
-footer{
+footer {
   background: #7f898f;
   height:52px;
   width: 100%;
@@ -57,7 +64,7 @@ table {
   transform: rotate(90deg);
 }
 
-.photo{
+.photo {
   margin-top: 30px;
   margin-bottom: 40px;
   height: 200px;
@@ -69,12 +76,27 @@ table {
   text-align: left;
 }
 
-.container{
-  position: relative;
+.container {
+  width:500px;
+  margin:auto;
 }
 
-.form{
+#bg-img {
+  background: url(images/lucho.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.form {
   padding-bottom: 20px;
-  width: 500px;
-  margin:auto;
+  text-align: left;
+  background: rgba(192,192,192, 0.6);
+  background-clip: content-box;
+}
+
+input[type="submit"]:hover {
+  cursor:pointer;
 }
