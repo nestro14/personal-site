@@ -26,6 +26,13 @@ body {
   background: #7fc8ff;
 }
 
+@media only screen and (max-width: 375px) {
+    a.nav {
+        font-size: 12px !important;
+        width: 100%;
+    }
+}
+
 footer {
   background: #7f898f;
   height:52px;
