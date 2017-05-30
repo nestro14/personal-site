@@ -16,8 +16,6 @@ a.nav:hover {
     border-bottom: 2px solid white;
 }
 
-
-
 a:visited {
   color: white;
 }
@@ -26,6 +24,13 @@ body {
   font-family: sans-serif,helvetica,georgia;
   margin: auto;
   background: #7fc8ff;
+}
+
+@media only screen and (max-width: 375px) {
+    a.nav {
+        font-size: 12px !important;
+        width: 100%;
+    }
 }
 
 footer {
